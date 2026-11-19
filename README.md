@@ -75,9 +75,9 @@ Two search workflows were implemented:
 
 ## Repository Contents
 
-- `notebooks/pt1_final_project_NS_team3.ipynb` — Part 1: Manual NN & optimizer/LR schedule experiments.
-- `notebooks/pt2_final_project_grid_search_team3.ipynb` — Part 2: Manual loop & TensorBoard CNN grid search.
-- `notebooks/pt3_final_project_keras_tensorflow_team3.ipynb` — Part 3: Keras Tuner search & top-model retraining.
+- `fmnist_notebooks//pt1_fmnist_NS.ipynb` — Part 1: Manual NN & optimizer/LR schedule experiments.
+- `fmnist_notebooks/pt2_fmnist_grid_search.ipynb` — Part 2: Manual loop & TensorBoard CNN grid search.
+- `fmnist_notebooks/pt3_fmnist_keras_tensorflow.ipynb` — Part 3: Keras Tuner search & top-model retraining.
 - `presentation/Neural_Systems_Final_Project.pdf` — Project slide deck summarizing methodology, visual diagnostics, and conclusions.
 
 
@@ -85,12 +85,10 @@ Two search workflows were implemented:
 ```text
 fashion-mnist-optimization-study/
 ├── README.md
-├── requirements.txt
-├── .gitignore
-├── notebooks/
-│   ├── pt1_final_project_NS_team3.ipynb
-│   ├── pt2_final_project_grid_search_team3.ipynb
-│   └── pt3_final_project_keras_tensorflow_team3.ipynb
+├── fmnist_notebooks/
+│   ├── pt1_fmnist_NS.ipynb
+│   ├── pt2_fmnist_grid_search.ipynb
+│   └── pt3_fmnist_keras_tensorflow.ipynb
 ├── presentation/
 │   └── Neural_Systems_Final_Project.pdf
 └── assets/
@@ -101,8 +99,3 @@ fashion-mnist-optimization-study/
     ├── part2_tensorboard_hparam_grid.png
     └── part3_top3_models_comparison.png
 ```
-
-
-
-
-    └── part3_top3_models_comparison.png
