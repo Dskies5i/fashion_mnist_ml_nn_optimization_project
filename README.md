@@ -34,8 +34,9 @@ Image classification performance depends not only on network capacity, but also 
   - **Adam + Exponential Decay (`0.887` / `0.890` in summary plots)** and **Adam + Cosine Annealing (`0.888`):** Maintained strong accuracy while modulating step sizes smoothly over training.
 - **Takeaway:** Moving from full-batch GD to mini-batch adaptive/momentum methods dramatically accelerates convergence and improves test accuracy even on a flattened MLP that discards 2D spatial structure.
 
-![Part 1 Optimizer Comparison](assets/part1_optimizer_comparison.png)
-
+| Gradient Descent Example | Adam Optimizer & Schedule Example | Overall Optimizer Comparison |
+| :---: | :---: | :---: |
+| ![Part 1 Gradient Descent Example](assets/part1_gradient_opt_example.png) | ![Part 1 Adam Optimizer Example](assets/part1_adam_opt_example.png) | ![Part 1 Optimizer Comparison](assets/part1_optimizer_comparison.png) |
 ---
 
 ### Part 2: CNN Architectures & Grid Search (`pt2_final_project_grid_search_team3.ipynb`)
@@ -93,6 +94,8 @@ fashion-mnist-optimization-study/
 ├── presentation/
 │   └── Neural_Systems_Final_Project.pdf
 └── assets/
+    ├── part1_gradient_opt_example.png
+    ├── part1_adam_opt_example.png
     ├── part1_optimizer_comparison.png
     ├── part2_grid_search_curves.png
     ├── part2_tensorboard_hparam_grid.png
